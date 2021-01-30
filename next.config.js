@@ -13,14 +13,14 @@ module.exports = withPlugins([], {
     },
 
     trailingSlash: true,
-    redirects() {
-        return [
-            {
-                source:      '/',
-                destination: '/blog',
-                permanent:   false,
-            },
-        ];
-    },
+    // redirects() {
+    //     return [
+    //         {
+    //             source:      '/',
+    //             destination: '/blog',
+    //             permanent:   false,
+    //         },
+    //     ];
+    // },
 });
 
