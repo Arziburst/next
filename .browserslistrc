@@ -1,0 +1,4 @@
+[production]
+ie >= 11
+[development]
+ie >= 11
